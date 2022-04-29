@@ -1,0 +1,301 @@
+/* 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    Route - Full stack diploma C38 - SAT & TUE - ALEX
+Date : 26-APR-2022
+Assignment # 6 
+Name : Bishoy Saeed Fayez
+e-mail : bishoysfayez@gmail.com 
+Mobile & Whatsapp : 01211351223
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ */
+
+
+/* style for devfolio */
+
+.section-1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(sec-1-bg.webp);
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff!important;
+  background-attachment: fixed;
+  
+}
+
+.nav-item{
+  margin-right:.5rem ;
+
+}
+.nav-item a{
+  font-size: 1rem!important;
+  color: #fff!important;
+  font-weight: 500;
+  transition: 2s border-bottom ease-in-out;
+}
+
+.nav-item a:hover{
+  border-bottom: 5px solid white;
+ 
+}
+
+
+.section-1 .text-center h3::after{
+  content: "|";
+  box-sizing: border-box;
+  /* border-left:6px solid #fff; */
+  margin-left: 4px;
+  animation-name: typing;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+@keyframes typing{
+  0%{content:" F|"}
+  5%{content:" FR|"}
+  10%{content:" FRE|"}
+  15%{content:" FREE|"}
+  20%{content:" FREEL |"}
+  25%{content:" FREELA|"}
+  30%{content:" FREELAN|"}
+  35%{content:" FREELANC|"}
+  40%{content:" FREELANCE|"}
+  45%{content:" FREELANCER|"}
+  50%{content:" FREELANCE|"}
+  55%{content:" FREELANC|"}
+  60%{content:" FREELAN|"}
+  65%{content:" FREELA|"}
+  70%{content:" FREEL|"}
+  80%{content:" FREE|"}
+  85%{content:" FRE|"}
+  90%{content:" FR|"}
+  95%{content:" F|"}
+  100%{content:" |"}
+
+}
+
+.container-fluid{
+  background-color: #ececec;
+}
+.container-fluid :nth-of-type(1){
+  background-color: transparent;
+}
+/* -------- section-2 ------------ */
+.section-2, .section-3{
+  padding-block: 2rem!important;
+  margin-top: 1rem!important;
+  margin-bottom: 0;
+
+}
+.section-2 .title-s{
+  font-weight: 500;
+}
+.section-2 .progress{
+  height: 10px;
+}
+.jumbotron .h-6{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+ .jumbotron .h-6::after{
+  content: "";
+  display: block;
+  width: 20%;
+  height: 30px;
+  border-bottom: 3px solid #467fd0;
+}
+.section-title h2{
+  font-weight: 500;
+}
+
+.section-title p::after{
+  content: "";
+  display: block;
+  margin: 1px auto;
+  width: 10%;
+  height: 10px;
+  border-bottom: 5px solid #467fd0;
+  text-align: center;
+}
+.rounded-lg{
+  border-radius: 10px;
+}
+.section-2 .paragraph-section-2{
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+/* ------ section-3 ----------- */
+.section-3{
+  padding-bottom: 3rem!important;
+}
+.section-3 .card-body .icon-circle{
+ 
+  height: 100px;
+  width: 100px;
+  font-size: 2rem;
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 0 10px #0078ff;
+  display: block;
+}
+.section-3 .card-body .icon-circle i{
+  margin: 20px auto;
+  font-size: 3rem;
+}
+.section-3 .card-body .icon-circle:hover{
+
+
+  box-shadow: 0 0 0 10px #9ac0ec;
+  color: #fff!important;
+  background-color: #0078ff;
+}
+
+
+/* -------- section-4 ---------------- */
+#sec-4{
+  background-image: linear-gradient(rgba(0, 120, 255, 0.7), rgba(0, 120, 255, 0.7)),url(sec-1-bg.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff!important;
+  padding: 3.5rem;
+}
+.section-4 .card-body .icon-circle{
+ 
+  height: 80px;
+  width: 80px;
+  font-size: 1.3rem;
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 0 8px rgba(255,255,255,0.7);
+  display: block;
+}
+.section-4 .card-body .icon-circle i{
+  margin: 20px auto;
+  font-size: 2rem;
+  color: rgba(255,255,255,0.8);
+}
+/* ------------ section-5 ---------------- */
+.card{
+  background-color: #fff!important;
+}
+
+.card-icon{
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border:3px solid #0078ff;
+}
+
+.section-5 .card-img-top{
+  transition: transform 1s ease-out, translateZ 1s;
+  z-index: 0;
+  overflow: hidden !important;
+  
+}
+.section-5 .card-img-top:hover{
+  transform: scale(1.2);
+  /* transform: translateZ(0); */
+  z-index: 0!important;
+}
+.section-5 .col-md-4 .card{
+  z-index: 3!important;
+  overflow: hidden !important
+}
+
+/*-------- section-6 ---------------- */
+#sec-6, #sec-8{
+  background-image: linear-gradient(rgba(35, 117, 204, 1), rgba(29, 123, 238, 0.705)),url(sky-1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff!important;
+  padding: 3.5rem;
+  /* height: 100vh; */
+
+}
+
+
+.carousel-indicators button{
+  width: 4px!important;
+  margin-top: 1rem;
+}
+
+/* ------ section-7---------- */
+
+.section-7 .badge-container{
+  position: relative;
+  text-align: center;
+  line-height: 25px;
+  overflow: hidden;
+  top: -20px;
+  left: 38%;
+  display: inline-block;
+}
+.section-7 .badge-container .badge{
+  font-size: 1rem;
+  font-weight: 200;
+}
+.section-7 .card-footer{
+  width: 100%;
+
+}
+.card-footer>p{
+  font-size: 1.4rem;
+  font-weight: 200;
+}
+.section-7 .icon-image{
+  width: 15%;
+}
+/* -------------- section-8---------- */
+.section-8{
+  background-color: #fff!important;
+  color: black;
+}
+.form-container button{
+  margin: 1rem auto;
+  width: 50%;
+  font-size: 1.5rem;
+}
+.form-container textarea{
+  width: 100%;
+  resize: none;
+  border: 1px solid rgba(53, 4, 4, 0.2);
+  border-radius: 0.3rem;
+}
+.form-container textarea:focus{
+  border-color:rgba(0, 120, 255, 0.4)!important;
+  box-shadow: 0 0 0 8px rgba(0, 120, 255, 0.2)!important;
+}
+
+.section-8 .icon-container{
+  display: inline;
+  background-color: #fff;
+  border: #0078ff 2px solid;
+  font-size: 1.5rem;
+}
+.section-8 .icon-container:hover{
+  color: #fff;
+  background-color: #0078ff;
+  border: #fff 2px solid;
+}
+.footer{
+ color: #fff;
+ font-size: 1.5rem;
+}
+.footer p{
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+
